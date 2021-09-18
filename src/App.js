@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Component2 from './Component/Component2';
+import Component1 from './Component1';
+ //Login and signup page import
+
+// import './index.css'
+// import './App.css';
+//  import Login from './Component/Login';
+// import Signup from './Component/SignUp';
+
+
+
+
+
 
 function App() {
+
+
+  // const [signUpClicked,setSignUpClicked] = React.useState(false)
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //  LOgin and signUp Page
+   
+  //  <div className='firstdiv' >
+  //    <div className='seconddiv' ></div>
+  //    <div className='logindiv animate__animated animate__bounceInLeft'>
+  //      {signUpClicked?<Signup setSignUpClicked={setSignUpClicked} />:<Login setSignUpClicked={setSignUpClicked} />}
+
+      
+  //    </div>
+     
+  //  </div>
+
+
+
+  //first Component
+//  <Component1 />
+
+  
+
+<Component2 />
+
+  )
 }
 
 export default App;

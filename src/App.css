@@ -1,38 +1,186 @@
-.App {
+body{
+  margin: 0%;
+  padding: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color:#ffffff;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  
+}
+body .firstdiv{
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+}
+body .firstdiv .seconddiv{
+  background-image: linear-gradient(40deg, #5c6ccd, #5753b5 100%);
+  width: 50vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+}
+body .firstdiv .logindiv{
+  background-color:#ffffff;
+  position: absolute;
+  left: 50vw;
+  width: 50vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+}
+.Logo {
+  position: relative;
+  left: 32%;
+  top:20%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 2.188rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.6;
+  letter-spacing: 5px;
+  color: #43425d;
+}
+
+.Welcome-back-Please-login-to-your-account {
+ 
+  opacity: 0.5;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.72;
+  letter-spacing: normal;
+  color: #4d4f5c;
+}
+.headingdiv{
+  position: relative;
   text-align: center;
+  width: 100%;
+   top:22%;
+   font-family: 'SourceSansPro-Regular', sans-serif;
+}
+.form{
+  position: relative;
+  left: 20%;
+  top:18%;
+  width: 60%;
+  height: 50%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+ 
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.password{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  
+
+ 
+  
+}
+.checki{
+  margin-left: -10px;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+}
+.forgetpassword{
+  padding-top: .47rem;
+  padding-right: 5px;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginsihnup{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem .0rem;
+  margin-top: 2rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  
+  
+
+}
+.example_a {
+	color: #fff !important;
+  width: 10rem;
+  height: 3rem;
+  border-radius: .2rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+
+	
+	text-decoration: none;
+	background: #43425d;
+  border: 2px solid #43425d; 
+
+}
+.ex2{
+ 
+  width: 10rem;
+  height: 3rem;
+  border-radius: .2rem;
+
+	background: #ffffff;
+
+  border: 1.5px solid #43425d; 
+  font-family: 'SourceSansPro-Regular', sans-serif;
+
+}
+.footer{
+  position: relative;
+  top: 86%;
+  text-align: center; 
+  width: 100%;
+  height: 0.938rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 0.688rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dusk);
+  
+
+
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Textfields-clmn1{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+
+}
+.Textfields-clmn1 label {
+  margin-left: 0.4rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 0.938rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+}
+.Textfields-clmn1 .input-with-icon-textfield2{
+  margin-top: 1rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

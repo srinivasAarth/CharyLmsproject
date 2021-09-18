@@ -1,0 +1,151 @@
+.Logo1{
+  
+
+  position: relative;
+  left: 32%;
+  top:10%;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 2.188rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.6;
+  letter-spacing: 5px;
+  
+  color: #43425d;
+}
+.headingdiv1{
+  position: relative;
+  text-align: center;
+  width: 100%;
+   top:12%;
+   height: 1.563rem;
+   opacity: 0.5;
+   font-size: 1.125rem;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.72;
+   letter-spacing: normal;
+   text-align: center;
+   color: #4d4f5c;
+   
+}
+.form1{
+ margin: 5rem auto;
+  width: 65%;
+  height: 50%;
+ 
+  
+  
+}
+.Textfields{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+}
+.Textfields-clmn{
+  display: flex;
+  flex-direction: column;
+
+}
+.input-with-icon-textfield{
+  width: 26rem;
+  
+  
+}
+.checkii{
+  margin-top: 1rem;
+margin-left: -0.6rem;
+  width: 17rem;
+  height: 1.313rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 0.938rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+  
+}
+.signupbtn{
+  
+    color: #fff !important;
+    width: 10rem;
+    height: 3rem;
+    border-radius: .2rem;
+   text-decoration: none;
+    background: #43425d;
+    border: 2px solid #43425d; 
+    margin-left: 8rem;
+    margin-top: 1.8rem;
+   font-family: 'SourceSansPro-Regular', sans-serif;
+   font-size: 1.125rem;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: center;
+   color:white;
+    
+  
+  
+}
+.ardyacut{
+  /* margin-left: 6.85rem;
+  margin-top: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer; */
+
+  width: 100%;
+  height: 21px;
+  margin-top: 1.2rem;
+  /* margin: 40px 88.2px 119px 105px; */
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #43425d;
+  text-decoration: underline;
+}
+.Textfields label{
+  margin-left: 0.4rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 0.938rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+  
+  
+} 
+.Textfields .input-with-icon-textfield1{
+  margin-top: -1rem;
+}
+.Textfields-clmn label {
+  margin-left: 0.4rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 0.938rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #43425d;
+}
+ .form1 .Textfields-clmn .input-with-icon-textfield{
+  margin-top: .6rem;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  
+}
