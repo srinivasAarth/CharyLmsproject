@@ -6,7 +6,7 @@ import NavButton from './NavButton'
 export const Navbar = ({navBarData,SetMenubuttonClicked }) => {
     return (
         <div className='navdiv'>
-              <NavBarHeading value='IMPEKABLE'  color='white' background='black'/>
+              <NavBarHeading value='IMPEKABLE'  color='white' background='#3c3b53'/>
               <>
               {navBarData.map((el) => {
                   

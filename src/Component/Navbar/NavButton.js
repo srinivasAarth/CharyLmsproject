@@ -10,7 +10,9 @@ export const NavButton = ({color,value,SetMenubuttonClicked,component,children})
         isSetHover(false)
     }
     const getButtonClicked = () => {
+        isSetHover(true)
         SetMenubuttonClicked(component)
+        
     }
    
     

@@ -21,6 +21,7 @@ import { HelpCenter } from '../MenuComponent/HelpCenter'
 import { Settings } from '../MenuComponent/Settings'
 import '../Component2.css'
 import Navbar from './Navbar/Navbar'
+import { TopNavBar } from './Navbar/TopNavBar'
 
 export const Component2 = () => {
     const navBarData = [
@@ -105,13 +106,18 @@ export const Component2 = () => {
 
     ]
     
-    const [menuButtonClicked,SetMenubuttonClicked] = React.useState(null)
-    console.log(menuButtonClicked)
+    const [menuButtonClicked,SetMenubuttonClicked] = React.useState(<Home />)
+    
     
     return (
         <div  className='Component2div'>
          <Navbar navBarData ={navBarData}  SetMenubuttonClicked={SetMenubuttonClicked}/>
-          <div className='menudiv'>{menuButtonClicked}</div>
+          <div className='menudiv'>
+              <>
+              <TopNavBar />
+              {menuButtonClicked}
+              </>
+              </div>
         </div>
     )
 }

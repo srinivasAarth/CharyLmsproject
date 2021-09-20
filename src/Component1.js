@@ -12,7 +12,7 @@ const Component1 = () => {
     const [isColor1,setIsColor1] = React.useState(false)
     const [isColor2,setIsColor2] = React.useState(false)
     const [isColor3,setIsColor3] = React.useState(false)
-    console.log(isColor)
+    
   
     const setFirstbuttonClicked = () => {
       setIsColor((p) => !p)

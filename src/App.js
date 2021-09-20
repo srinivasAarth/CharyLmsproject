@@ -1,6 +1,6 @@
 import React from 'react';
 import Component2 from './Component/Component2';
-import Component1 from './Component1';
+
  //Login and signup page import
 
 // import './index.css'
