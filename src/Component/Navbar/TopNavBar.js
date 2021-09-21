@@ -41,66 +41,29 @@ export const TopNavBar = () => {
   }
     
     return (
-        <div className='TopnavbarFirstdiv' ref={ref}   onClick={() => setIsMenuOpen(oldState => !oldState)}>
-<div className='searchbardiv'>
-            <div className="search-box" >
-          {!isMenuOpen?<><div className="btn-search1"> <Icon icon='search' /></div> 
-   <div className='serchtext'>Search transactions, invoices or help</div>
-   
-   
-   </>:
-   <div className="search-box1" onClick={buttonClicked}>
-    <InputGroup >
-      <Input onClick={buttonClicked}/>
-      <InputGroup.Addon onClick={buttonClicked} >
-        <Icon icon="search" />
-      </InputGroup.Addon>
-    </InputGroup>
-  
- </div>
-   
-   } 
-</div>
-</div>
-            
-            
-<div className='leftsidebar'>
-    <div  className='iconnav1' >
-    <IoMdHelpBuoy />
-    </div>
-    <div className='iconnav2'>
-    <IoIosChatbubbles />
+      <>
+        <div className='topnav-fixed' ref={ref}   onClick={() => setIsMenuOpen(oldState => !oldState)}>
+
+            <div className ={'input-top'}>
+            <IoMdHelpBuoy  size ={'1.4em'} />
+              <input className={"real-input"}  placeholder={'Search transactions, invoices or help'}/>
+            </div>
+            <div className='leftsideicons'>
+              <IoMdHelpBuoy  size ={'1.4em'} />
+              <IoIosChatbubbles  size ={'1.4em'}/> 
+              <IoIosNotifications size ={'1.4em'} />
+            </div>
+
+              
+              <div className='small-user' >
+                  <div className='profile-name'>John Doe</div>
+                  <IoIosArrowDown size ={'1em'}/> 
+                  <img style ={{width : '40px'}} src="https://cdn.zeplin.io/61407dc892d6142539013dcb/assets/452D573B-BF22-48C1-8E3B-38C1BC2CAFCF.png" alt ={"chary"}/>
+                    
+              </div>
+              
     </div>
 
-    <div className='iconnav3'>
-      <div className='budge' >
-      <Badge style={{background:'#ffc06a'}} />
-      </div>
-   <IoIosNotifications />
-    
-
-  
-    </div>
-
-    <div className='iconnav4'>
-    <div className="Divider"></div>
-    </div>
-    <div className='iconnav5' >
-        <div className='profilrname'><span>John Doe</span></div>
-        <div className='iconnav6'> <IoIosArrowDown     /></div>
-       
-       
-       
-       
-    </div>
-    <div className='avtar'>
-    <Avatar
-      circle
-      src="https://avatars2.githubusercontent.com/u/12592949?s=460&v=4"
-    />
-    </div>
-    
-</div>
-        </div>
+       </>
     )
 }

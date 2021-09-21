@@ -2,6 +2,8 @@
     background-color: #f0f0f7;
     height: 80.35vh;
     overflow-x: hidden;
+    margin-top: 5%;
+    font-family: 'SourceSansPro-Regular', sans-serif;
 }
 .customername{
     display: flex;
@@ -9,6 +11,7 @@
     justify-content: space-between;
    
     margin-top: 2rem;
+    font-family: 'SourceSansPro-Regular', sans-serif;
 }
 .customerName{
     margin-left: 5rem;
